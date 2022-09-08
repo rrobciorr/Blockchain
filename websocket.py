@@ -9,8 +9,7 @@ msg = '{"token": "{API_SECRET}", "action": "subscribe", "channel": "auth"}'
 ws.send(msg)
 result =  ws.recv()
 print(result)
-# { "seqnum":0,
-#   "event":"subscribed",
+# { "seqnum":0,\   "event":"subscribed",
 #   "channel":"auth",
 #   "readOnly":false }
 ws.close()

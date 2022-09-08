@@ -1,5 +1,5 @@
 @echo off
 git add .
-git reset info.txt
-git commit -m "third commit"
+REM git reset info.txt
+git commit -m "commit"
 git push -u origin main
